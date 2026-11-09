@@ -588,4 +588,20 @@ body {
 .section-title span {
     color: #d5bfff;
 }
+/* Ciel étoilé interactif */
+#stars {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
 
+/* Le contenu reste au-dessus des étoiles */
+header,
+section,
+footer {
+    position: relative;
+    z-index: 1;
+}
