@@ -605,3 +605,33 @@ footer {
     position: relative;
     z-index: 1;
 }
+
+/* ===== EFFET DE PROFONDEUR DES BLOCS ===== */
+
+.tech-card,
+.project-card,
+.info-card,
+.skill-card,
+.veille-box {
+    position: relative;
+    background: rgba(23, 19, 41, 0.92);
+    border: 1px solid rgba(185, 148, 255, 0.25);
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.35),
+        0 0 20px rgba(185, 148, 255, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Halo violet au survol */
+.tech-card:hover,
+.project-card:hover,
+.info-card:hover,
+.skill-card:hover,
+.veille-box:hover {
+    transform: translateY(-5px);
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.45),
+        0 0 25px rgba(185, 148, 255, 0.22),
+        0 0 45px rgba(185, 148, 255, 0.10);
+    border-color: rgba(213, 191, 255, 0.55);
+}
