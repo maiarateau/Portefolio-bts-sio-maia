@@ -1,13 +1,13 @@
 
 :root {
     --background: #080b14;
-    --background-alt: #0d1525;
-    --card: #111c30;
-    --blue: #3984ee;
-    --blue-light: #67a7ff;
+    --background-alt: #100d1c;
+    --card: #171329;
+    --Purple:  #b994ff;
+    --purple-light: #d5bfff;
     --text: #f1f5f9;
-    --muted: #a0aec0;
-    --border: #24334d;
+    --muted: #b7a9cc;
+    --border: #44345f;
 }
 
 * {
@@ -521,10 +521,9 @@ footer {
 
 /* Fond sombre quadrillé */
 body {
-    background-color: #080b14;
     background-image:
-       linear-gradient(rgba(190, 150, 255, 0.09) 1px, transparent 1px),
-       linear-gradient(90deg, rgba(190, 150, 255, 0.09) 1px, transparent 1px);
+        linear-gradient(rgba(185, 148, 255, 0.09) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(185, 148, 255, 0.09) 1px, transparent 1px);
     background-size: 40px 40px;
     background-attachment: fixed;
 }
