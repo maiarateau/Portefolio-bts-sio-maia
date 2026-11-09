@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap');
 :root {
     --background: #080b14;
     --background-alt: #100d1c;
@@ -534,4 +535,35 @@ body {
 :root {
     --accent: #c4a1ff;
     --accent-light: #dfcaff;
+}
+
+/* ===== TITRES PLAYFAIR DISPLAY ===== */
+
+.hero h1,
+.hero h2,
+.section-title,
+.about-content h3,
+.skill-card h3,
+.project-card h3,
+.info-card h3,
+.veille-box h3 {
+    font-family: 'Playfair Display', serif;
+    color: #c4a1ff;
+}
+
+/* Gros titre principal */
+.hero h1 {
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+/* Titres des sections */
+.section-title {
+    font-weight: 700;
+}
+
+/* Conserver le violet sur les mots accentués */
+.hero h1 span,
+.section-title span {
+    color: #d5bfff;
 }
