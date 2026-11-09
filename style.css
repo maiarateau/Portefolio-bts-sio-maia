@@ -518,3 +518,22 @@ footer {
         align-items: flex-start;
     }
 }
+
+/* Fond sombre quadrillé */
+body {
+    background-color: #080b14 !important;
+
+    background-image:
+        linear-gradient(
+            rgba(100, 150, 220, 0.08) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(100, 150, 220, 0.08) 1px,
+            transparent 1px
+        );
+
+    background-size: 40px 40px;
+    background-attachment: fixed;
+}
