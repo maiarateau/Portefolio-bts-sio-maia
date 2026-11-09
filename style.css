@@ -166,8 +166,11 @@ header {
 }
 
 .btn-primary:hover {
-    background: #2568c5;
+    background: #d5bfff;
+    color: #080b14;
     transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(185, 148, 255, 0.4);
+
 }
 
 .btn-secondary {
@@ -181,8 +184,8 @@ header {
 }
 
 .tech-card {
-    background: #101b2e;
-    border: 1px solid #2b4264;
+    background: #171329;
+    border: 1px solid #44345f;
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 20px 70px rgba(0, 0, 0, 0.3);
@@ -220,7 +223,7 @@ header {
 }
 
 .terminal-blue {
-    color: #69aaff;
+    color: #c4a1ff;
 }
 
 /* =========================
@@ -356,7 +359,7 @@ header {
 
 .project-tag {
     color: var(--blue-light);
-    background: rgba(57, 132, 238, 0.12);
+    background: rgba(185, 148, 255, 0.12);
     padding: 7px 10px;
     border-radius: 5px;
     font-size: 11px;
