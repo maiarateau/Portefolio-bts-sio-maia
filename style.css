@@ -549,6 +549,26 @@ body {
 .info-card h3,
 .veille-box h3 {
     font-family: 'Playfair Display', serif;
+    color: #f1f5f9;
+}
+
+/* Bonjour, je suis en blanc */
+.hero h1 {
+    color: #f1f5f9;
+}
+
+/* Maïa en violet */
+.hero h1 span {
+    color: #c4a1ff;
+}
+
+/* Titres des sections en blanc */
+.section-title {
+    color: #f1f5f9;
+}
+
+/* Les mots accentués restent violets */
+.section-title span {
     color: #c4a1ff;
 }
 
