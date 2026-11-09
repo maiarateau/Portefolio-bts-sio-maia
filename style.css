@@ -520,19 +520,16 @@ footer {
 }
 /* Fond sombre quadrillé */
 body {
-    background-color: #080b14 !important;
-
+    background-color: #080b14;
     background-image:
-        linear-gradient(
-            rgba(100, 150, 220, 0.08) 1px,
-            transparent 1px
-        ),
-        linear-gradient(
-            90deg,
-            rgba(100, 150, 220, 0.08) 1px,
-            transparent 1px
-        );
-
+        linear-gradient(rgba(190, 150, 255, 0.09) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(190, 150, 255, 0.09) 1px, transparent 1px);
     background-size: 40px 40px;
     background-attachment: fixed;
+}
+
+/* Couleur d'accent violette */
+:root {
+    --accent: #c4a1ff;
+    --accent-light: #dfcaff;
 }
